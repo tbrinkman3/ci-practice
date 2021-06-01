@@ -64,6 +64,12 @@ describe('App', () => {
     expect(actions.invalidateSubreddit.mock.calls.length).toBe(1);
     expect(actions.fetchPostsIfNeeded.mock.calls.length).toBe(2);
   })
+
+  it('2+ 2 should equal 4', () => {
+
+
+    expect(2 +2).toBe(4)
+  })
 })
 
 
